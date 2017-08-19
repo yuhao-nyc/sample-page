@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'ACaslonPro';
+  src: url('./fonts/ACaslonPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Springville';
+  src: url('./fonts/Springville-Regular3.otf');
+}
+
+.header-navbar {
+  font-size: 11px;
+  background-color: #fff;
+  margin: 50px 0 45px;
+  color: #767676;
+}
+
+.header-navbar .img-fluid {
+  width: 196px;
+  height: 34px;
+}
+
+.sliders-text {
+  width: 40%;
+  position: absolute;
+  margin-top: -380px;
+}
+
+.sliders-text h1 {
+  font-size: 60px;
+  font-family: "Springville";
+  color: #fff;
+}
+
+.sliders-text h4 {
+  font-size: 30px;
+  font-family: "ACaslonPro";
+  color: #fff;
+  margin: 12px 0;
+}
+
+.sliders-text h6 {
+  font-size: 18px;
+  font-family: "ACaslonPro";
+  color: #fff;
+  line-height: 18px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+.blocks-container {
+  margin-top: 48px
+}
+.blocks {
+  margin: 52px 0 50px;
+}
+.blocks div {
+  font-size: 11px;
+  font-family: "Arial";
+  height: 9px;
+  color: #767676;
+  margin: 38px 0 22px;
+}
+
+.blocks h1 {
+  font-family: Springville arial sans-serif;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.blocks h1 a {
+  color: #131313
+}
+
+.blocks p {
+  font-size: 14px;
+  font-family: "ACaslonPro";
+  color: #131313;
+  margin: 21px 0 44px;
+}
+
+.blocks p a {
+  color: #131313;
+  text-decoration: underline;
+}
+
+.blocks p a:hover {
+  color: #94999c;
+}
+
+.footer {
+  font-size: 11px;
+  font-family: "Arial";
+  color: #767676;
+  font-weight: bold;
+  margin: 90px 0 78px
+}
+
+.footer a {
+  color: #767676;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #94999c;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sliders-text h1 {
+      font-size: 48px
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .sliders-text {
+      margin-top: -300px;
+    }
+    .sliders-text h1,
+    .blocks h1 {
+      font-size: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .sliders-text {
+      margin-top: -270px;
+      width: 67%;
+    }
+    .sliders-text h1,
+    .blocks h1 {
+      font-size: 22px;
+    }
+    .blocks div {
+      margin: 18px 0 2px;
+    }
+}
+@media (max-width: 576px) {
+    .menu-icon {
+      margin-left: -50%;
+    }
+    .d-xs-none {
+      display: none;
+    }
+    .sliders-text {
+      margin-top: -180px;
+      width: 80%;
+    }
+    .sliders-text h1,
+    .blocks h1 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .sliders-text h4 {
+      margin: 4px 0;
+    }
+    .sliders-text h4,
+    .sliders-text h6 {
+      font-size: 12px;
+    }
+    .blocks div {
+      margin: 18px 0 2px;
+    }
+}
